@@ -1,0 +1,789 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  text-decoration: none;
+}
+
+.header {
+  width: 1150px;
+  height: 40px;
+  /* border: 1px solid blue; */
+  line-height: 40px;
+  font-size: 14px;
+  color: #ff0000;
+  padding-left: 30px;
+  padding-right: 20px;
+}
+
+.header p {
+  float: left;
+}
+
+.header a {
+  text-decoration: none;
+  color: #ff0000;
+}
+
+.header ul {
+  float: right;
+}
+
+.header ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.header .person {
+  width: 60px;
+  /* border: 1px solid red; */
+  background: url(../images/person.jpg) no-repeat left center;
+  padding-left: 20px;
+  color: #000000;
+}
+
+.header .gouwu {
+  width: 60px;
+  /* border: 1px solid red; */
+  background: url(../images/chart.jpg) no-repeat left center;
+  padding-left: 20px;
+  color: #ff0000;
+}
+
+.header .save {
+  width: 60px;
+  /* border: 1px solid red; */
+  background: url(../images/save.jpg) no-repeat left center;
+  padding-left: 20px;
+  color: #000000;
+}
+
+.sousuo {
+  width: 855px;
+  height: 77px;
+  /* border: 1px solid red; */
+  background: url(../images/logobig.png) no-repeat 135px center;
+  padding-left: 345px;
+  padding-top: 23px;
+  /* line-height: 77px; */
+}
+
+.sousuo input {
+  width: 490px;
+  height: 50px;
+  border: 2px solid #ccc;
+  outline: none;
+  float: left;
+}
+.sousuo input:focus,
+.sousuo input:hover {
+  border: 2px solid #ff0000;
+}
+.sousuo p {
+  width: 150px;
+  height: 54px;
+  color: white;
+  background-color: #ff0000;
+  line-height: 54px;
+  text-align: center;
+  font-size: 18px;
+  float: left;
+}
+
+.sousuo p a {
+  color: white;
+  text-decoration: none;
+}
+.left .menu {
+  width: 700px;
+  height: 389px;
+  /* border: 1px solid red; */
+  background-color: #fff;
+  position: absolute;
+  top: 190px;
+  right: 550px;
+  z-index: 100;
+  color: #000;
+  padding: 6px;
+  text-align: left;
+  display: none;
+}
+
+.left .li1:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: #666;
+}
+
+.left .li1:hover .menu {
+  display: block;
+}
+
+.left .li2:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: #666;
+}
+
+.left .li2:hover .menu {
+  display: block;
+}
+
+.left .li3:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: #666;
+}
+
+.left .li3:hover .menu {
+  display: block;
+}
+
+.left .li4:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: #666;
+}
+
+.left .li4:hover .menu {
+  display: block;
+}
+
+.left .li5:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: #666;
+}
+
+.left .li5:hover .menu {
+  display: block;
+}
+
+.left .li6:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: #666;
+}
+
+.left .li6:hover .menu {
+  display: block;
+}
+
+.left .li7:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: #666;
+}
+
+.left .li7:hover .menu {
+  display: block;
+}
+
+.left .li8:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: #666;
+}
+
+.left .li8:hover .menu {
+  display: block;
+}
+
+.left .li9:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: #666;
+}
+
+.left .li9:hover .menu {
+  display: block;
+}
+
+.left .li10:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: #666;
+}
+
+.left .li10:hover .menu {
+  display: block;
+}
+
+.left .menu dl {
+  width: 700px;
+  height: 130px;
+  /* border: 1px solid blue; */
+}
+
+.left .menu dl dt {
+  font-size: 16px;
+  text-align: left;
+  color: red;
+}
+
+.left .menu dl dd {
+  height: 38px;
+  line-height: 38px;
+  border: 1px solid #999;
+  float: left;
+  padding: 0 10px 0 10px;
+  margin: 10px 10px 0 0;
+  color: #999;
+}
+
+.left .menu dl dd:hover {
+  color: red;
+}
+.fenlei {
+  width: 1200px;
+  height: 50px;
+  /* border: 1px solid blue; */
+  position: relative;
+}
+
+.fenlei li {
+  list-style: none;
+  float: left;
+  width: 80px;
+  height: 50px;
+  /* border: 1px solid red; */
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 50px;
+  text-align: center;
+}
+
+.fenlei li a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.fenlei .qbfl {
+  width: 180px;
+  height: 50px;
+  color: white;
+  font-weight: normal;
+  background-color: #d2364c;
+}
+
+.fenlei .qbfl a {
+  color: #ffffff;
+}
+
+.fenlei .gou {
+  background: url(../images/border.jpg) no-repeat right center;
+}
+
+.fenlei .fuli {
+  position: absolute;
+  right: 0;
+  top: 5px;
+}
+#yuandian {
+  bottom: 400px;
+}
+/*产品分类模块*/
+.chanpinfenlei {
+  width: 1200px;
+  height: 400px;
+  /* border: 1px solid red; */
+}
+
+.chanpinfenlei .left {
+  width: 180px;
+  height: 400px;
+  background-color: #000000;
+  float: left;
+  color: white;
+  font-size: 12px;
+}
+
+.chanpinfenlei .left li {
+  list-style: none;
+  width: 180px;
+  height: 39px;
+  line-height: 39px;
+  /* border: 1px solid #333; */
+  text-align: center;
+}
+
+.chanpinfenlei .left li span {
+  color: #666;
+}
+
+.chanpinfenlei .left .li1 {
+  background: url(../images/cake.png) no-repeat 20px center;
+}
+
+.chanpinfenlei .left .li2 {
+  background: url(../images/candy.png) no-repeat 20px center;
+}
+
+.chanpinfenlei .left .li3 {
+  background: url(../images/chocolate.png) no-repeat 20px center;
+}
+
+.chanpinfenlei .left .li4 {
+  background: url(../images/cookies.png) no-repeat 20px center;
+}
+
+.chanpinfenlei .left .li5 {
+  background: url(../images/fish.png) no-repeat 20px center;
+}
+
+.chanpinfenlei .left .li6 {
+  background: url(../images/meat.png) no-repeat 20px center;
+}
+
+.chanpinfenlei .left .li7 {
+  background: url(../images/nut.png) no-repeat 20px center;
+}
+
+.chanpinfenlei .left .li8 {
+  background: url(../images/package.png) no-repeat 20px center;
+}
+
+.chanpinfenlei .left .li9 {
+  background: url(../images/tea.png) no-repeat 20px center;
+}
+
+.chanpinfenlei .left .li10 {
+  background: url(../images/cake.png) no-repeat 20px center;
+}
+
+.chanpinfenlei .middle {
+  width: 800px;
+  height: 400px;
+  background-color: gray;
+  float: left;
+}
+
+.chanpinfenlei .right {
+  width: 180px;
+  height: 380px;
+  background-color: white;
+  float: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 14px;
+  padding-top: 20px;
+}
+
+.chanpinfenlei .right .p1 {
+  color: #ff0000;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.chanpinfenlei .right .p2 {
+  height: 30px;
+  line-height: 30px;
+  font-size: 12px;
+}
+
+.chanpinfenlei .right hr {
+  margin: 20px 0 10px 0;
+}
+
+.chanpinfenlei .right img {
+  border-radius: 50%;
+}
+
+.chanpinfenlei .right .p3 {
+  width: 120px;
+  height: 50px;
+  /* border: 1px solid blue; */
+  margin-left: 45px;
+  margin-top: 25px;
+  color: #666;
+}
+
+.chanpinfenlei .right .p3 a {
+  text-decoration: none;
+  /* color: #ff0000; */
+  font-size: 12px;
+}
+
+.chanpinfenlei .right input {
+  width: 80px;
+  height: 25px;
+  background-color: #ffa500;
+  color: white;
+  border: 0;
+  cursor: pointer;
+}
+.details {
+  width: 1200px;
+  height: 400px;
+  background-color: #fff;
+  z-index: 20;
+}
+/* 今日推荐 */
+.tuijian {
+  width: 1200px;
+  height: 170px;
+  /* border: 1px solid blue; */
+  margin-top: 20px;
+}
+.tuijian1{
+  background-color: #5c5a51;
+}
+  
+
+.tuijian1 img {
+  /* 添加相对定位 */
+  position: relative;
+  top: -90px;
+  left: 120px;
+}
+.tuijian2 img {
+  width: 110px;
+  /* 添加相对定位 */
+  position: relative;
+  left: 155px;
+}
+.tuijian2  img{
+  position: relative;
+  left: 136px;
+  top: -56px;
+
+}
+.tuijian1,
+.tuijian2
+{
+	width: 258px;
+	height: 130px;
+  padding: 20px;
+	/* border: 1px solid red; */
+	float: left;
+}
+.tuijian2 h3:hover{
+  transform: translate(-20px,0px);
+  transition: 10ms;
+}
+.tuijian2 img:hover{
+  transform: translate(-20px,0px);
+  transition: 10ms;
+}
+/* 热门活动 */
+.huodong {
+  width: 100%;
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+}
+
+.huodong h2 {
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+.huodong h2 span {
+  font-size: 16px;
+  font-weight: normal;
+}
+.chanpinfenlei .left ul li h3 {
+  background-color: transparent;
+  color: #fff;
+}
+
+.chanpinfenlei .left ul li:hover h3 {
+  background-color: white;
+  color: black;
+}
+
+.chanpinfenlei .left ul li h3 .box :hover {
+  display: inline;
+  width: 800px;
+  height: 400px;
+  margin: 20px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid red;
+}
+.s1 {
+  color:#999 ;
+  margin-right: 20px;
+}
+
+.s2 {
+  color: black;
+  float: right;
+}
+
+.con {
+  width: 22%;
+  margin: 10px 1%;
+  float: left;
+  position: relative;
+}
+
+.img-activity {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.img-p {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.img-p img {
+  width: 80px;
+  height: 80px;
+}
+
+.con p {
+  font-size: 14px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* 手机模块 */
+.shouji {
+  width: 1200px;
+  height: 522px;
+  /* border: 1px solid red; */
+  margin-top: 53px;
+}
+
+.shouji h2 {
+  width: 1200px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 20px;
+
+  position: relative;
+  top: 20px;
+}
+
+.shouji h2 .s1 {
+  font-size: 14px;
+  color: #999;
+  font-weight: normal;
+}
+
+.shouji h2 .s2 {
+  font-size: 14px;
+  font-weight: normal;
+  float: right;
+  position: relative;
+  top: -20px;
+}
+.huodong h2 span :hover{
+  color: #e97b21;
+}
+.shouji1,
+.shouji2,
+.shouji3,
+.shouji4,
+.shouji5 {
+  width: 239px;
+  height: 480px;
+  /* border: 1px solid blue; */
+  float: left;
+  position: relative;
+}
+
+.shouji1 {
+  background-color: #6bdea7;
+}
+
+.shouji1 a {
+  display: inline-block;
+  width: 62px;
+  height: 62px;
+  /* border: 1px solid blue; */
+  border-radius: 50%;
+  background-color: white;
+  text-align: center;
+  line-height: 62px;
+  color: black;
+  text-decoration: none;
+  margin: 20px 0px 0px 10px;
+}
+
+.shouji1 .p1 {
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  top: 200px;
+  left: 65px;
+}
+
+.shouji1 .p2 {
+  font-size: 12px;
+  font-weight: bold;
+  color: #666;
+  position: absolute;
+  top: 220px;
+  left: 65px;
+}
+
+.shouji1 img {
+  width: 184px;
+  position: absolute;
+  top: 315px;
+  left: 36px;
+}
+
+.shouji2 .top {
+  width: 239px;
+  height: 239px;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  background: url(../images/购物车.png) no-repeat 190px 190px;
+  position: relative;
+}
+
+.shouji2 img {
+  position: absolute;
+  top: 10px;
+  left: 35px;
+}
+
+.shouji2 img:hover {
+  transform: translate(-30px, 0);
+  transition: 0.5s;
+}
+
+.shouji2 p {
+  font-size: 14px;
+  font-weight: bold;
+  position: absolute;
+  top: 190px;
+  left: 20px;
+}
+
+.shouji2 span {
+  font-weight: normal;
+  font-size: 12px;
+}
+
+.shouji2 .bottom {
+  border-bottom: 0px;
+}
+
+.shouji3 {
+  background: url(../images/购物车.png) no-repeat 180px 100px;
+}
+
+.shouji3 img {
+  position: absolute;
+  top: 200px;
+  left: 30px;
+}
+
+.shouji3 img:hover {
+  transform: translate(-30px, 0);
+  transition: 0.5s;
+}
+
+.shouji3 p {
+  font-size: 14px;
+  font-weight: bold;
+  position: absolute;
+  top: 100px;
+  left: 20px;
+}
+
+.shouji3 span {
+  font-weight: normal;
+  font-size: 12px;
+}
+
+.shouji4 {
+  border-left: 1px solid #ccc;
+}
+
+/* 电脑模块 */
+.diannao1 {
+  background-color: #e97b21;
+}
+
+.diannao1 img {
+  width: 160px;
+  position: absolute;
+  top: 250px;
+  left: 50px;
+}
+
+.diannao1 .p1 {
+  position: absolute;
+  left: 85px;
+  top: 205px;
+}
+
+.diannao1 .p2 {
+  position: absolute;
+  left: 85px;
+  top: 225px;
+}
+
+/* 甜品模块 */
+.tianpin1 {
+  background-color: #bf2ee4;
+}
+
+.tianpin1 img {
+  position: absolute;
+  top: 300px;
+  left: 30px;
+}
+
+/* 坚果模块 */
+.jianguo1 {
+  background-color: #42c5f8;
+}
+
+.jianguo1 img {
+  position: absolute;
+  top: 300px;
+  left: 30px;
+}
+
+.jianguo1 .p2 {
+  position: absolute;
+  left: 85px;
+  top: 225px;
+}
+.hr1 {
+  width: 1200px;
+  height: 3px;
+  background-color:black;
+  position: relative;
+  top: 56px;
+}
+
+/* 页脚模块 */
+.footer {
+  width: 1200px;
+  height: 60px;
+  border-top: 2px solid red;
+  margin-top: 56px;
+}
+
+.footer .p1 {
+  font-size: 14px;
+  color: #999;
+  height: 30px;
+  line-height: 30px;
+}
+
+.footer .p2 {
+  font-size: 12px;
+  height: 30px;
+  line-height: 30px;
+  padding-bottom: 20px;
+}

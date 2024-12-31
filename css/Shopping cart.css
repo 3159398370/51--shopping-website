@@ -1,0 +1,299 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.header {
+	width: 1140px;
+	margin:0 auto;
+	padding: 10px 30px;
+	font-size: 14px;
+	height:20px;
+}
+.header p{
+	width: 200px; 
+	height:40px; 
+	color: red; 
+	float: left;
+}
+.header ul{
+	width: 400px; 
+	height:40px; 
+	float: right;
+}
+.header li {
+	width:60px; 
+	float: left;
+	margin-right: 5px;
+}
+.header a{
+	text-decoration: none; 
+	color: #FF0000;
+}
+.header .person,
+.chart,
+.save {
+	background: url(../images/person.jpg) no-repeat left center;
+	width: 65px;
+	padding-left:20px;
+}
+.header .person a,
+.header .save a{
+	color: #333;
+}
+.header .chart {
+	background: url(../images/chart.jpg) no-repeat left center;
+}
+.header.save {
+	background: url(../images/save.jpg) no-repeat left center;
+}
+.logo{
+	width:1050px;
+	height:90px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding-left: 100px;
+}
+.logo h1 {
+	width: 200px;
+	height: 90px;
+	background: url(../images/logobig.png) no-repeat left center;
+	float: left;
+	margin-right:20px;
+}
+.logo.sou {
+	float: left;
+	width:670px;
+	height: 70px;
+	padding-top: 16px;
+}
+.logo input{
+	width: 500px;
+	height: 50px;
+	border:2px solid #f00;
+	outline: none;
+	padding-left: 10px;
+}
+.logo p{
+	width:156px;
+	height: 54px;
+	background: #f00;
+	text-align: center;
+	line-height: 54px;
+	color: #fff;
+	float: right;
+	font-size: 18px;
+}
+.clear{
+	clear: both;
+}
+table{
+	width: 1000px;
+	margin: 0 auto;
+	border: 1px solid #ccc;
+	font-size: 14px;
+	border-collapse: collapse;
+}
+table tr {
+	border: 1px solid #ccc;
+}
+table a{
+	text-decoration: none; 
+	color: #000;
+}
+table a:hover {
+	color: rgb(9, 130, 187);
+}
+.tr2-td {
+	height:40px;
+	background: #f5f5f5; 
+	line-height: 40px; 
+	color: #F00;
+	padding-left: 30px;
+}
+.tr3-td1 {
+	padding-left: 10px; 
+	width:120px;
+}
+.tr3-td2 {
+	width: 180px;
+	padding: 15px 10px;
+}
+.pic{
+	height: 88px; 
+	width: 88px;
+	border: 1px solid #ccc; 
+	float: left;
+	margin-left:10px;
+}
+table input { 
+	float: left;
+}
+.tr3-td3{
+	height: 130px; 
+	position: relative; 
+	width: 220px;
+}
+.tr3-td3 div{ 
+	width: 160px; 
+	height:80px;
+	border: 1px dashed #f00; 
+	padding:15px 20px; 
+	position: relative; 
+	display: none;
+}
+.tr3-td3 a{
+	color: #acacac; 
+	position: absolute; 
+	top: 15px; 
+	left: 20px;
+}
+.tr3-td3 a:hover { 
+	color: #acacac;
+}
+.tr3-td3 div span { 
+	width:40px; 
+	height: 15px;
+	background: rgb(255,94,0); 
+	color: #fff;
+	position: absolute; 
+	top:0px; 
+	right:0px;
+	text-align: center; 
+	line-height: 15px;
+}
+.tr3-td4{
+	width:100px;
+	padding-top: 15px;
+}
+.tr3-td4 del { 
+	color: #999; 
+	font-size: 12px;
+}
+.tr3-td5{
+	width: 100px;
+	padding: 15px 10px;
+}
+.tr3-td5 .btn-decrement,
+.tr3-td5 .btn-increment { 
+	width: 25px; 
+	height: 25px;
+	background-color: #f5f5f5; 
+	text-align: center; 
+	line-height: 25px; 
+	border: none;
+}
+.tr3-td5 .input-qty { 
+	width: 30px; 
+	height: 15px;
+	border: 1px solid #ccc; 
+	outline: none; 
+	margin: 3px;
+}
+.tr7-td {
+	height: 50px;
+	background-color: #f5f5f5; 
+	padding-left: 5px;
+}
+.tr7-td-p1 { 
+	float: left; 
+	height: 50px; 
+	line-height:50px;
+}
+.tr7-td-p1 input{ 
+	margin-top: 20px;
+}
+.tr7-td-p2 { 
+	float: right;
+	margin-top: 10px;
+	margin-right: 124px;
+}
+.tr7-td-p2 em {
+	font-style: normal; 
+	color: #f00;
+}
+.js {
+	position: relative;
+	top: 0px;
+	right: -722px;
+	width: 101px;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+	background:#ffd401 ;
+	font-family: "Montserrat", sans-serif;
+	box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.2);
+	overflow: hidden;
+	cursor: pointer;
+	border: none;
+	color: #fff;
+	font-size: 1.125em;
+	font-weight: 700;
+	letter-spacing: 0.3em;
+	z-index: 20;
+	transition: all 0.3s ease-in-out;
+}
+
+.js:after {
+	content: "谢谢惠顾 ";
+	width: 0%;
+	height: 100%;
+	background: #ff0000;
+	position: absolute;
+	transition: all 0.4s ease-in-out;
+	right: 0;
+}
+
+.js:hover:after {
+	right: auto;
+	left: 0;
+	width: 100%;
+}
+
+.js:hover {
+	color: #f5f5f5;
+	animation: scaleUp 0.3s ease-in-out;
+}
+
+@keyframes scaleUp {
+	0% {
+		transform: scale(1);
+	}
+
+	50% {
+		transform: scale(0.95);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
+.foot {
+	width: 1000px;
+	margin:20px auto;
+	border-top: 2px solid #f00;
+}
+.foot p {
+	height:30px; 
+	line-height: 30px; 
+	font-size: 14px; 
+	color: #999;
+}
+.foot .foot_p{
+	border-top: 1px 
+	solid #aaa; 
+	color: #333;
+}
+.move:hover{
+	transform: translate(-30px,0);
+	transition: 0.5s;
+}
+	
+
+
+
+
+

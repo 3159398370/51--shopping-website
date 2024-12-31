@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>购物车</title>
+	<link rel="stylesheet" href="../css/Shopping cart.css">
+</head>
+	<body>
+		<!--顶部导航条-->
+		<div class="header">
+			<p>亲，<a href="login.html">请登录</a><a href="zc.html">免费注册</a></p>
+			<ul>
+				<li><a href="#">手机端</a></li>
+				<li><a href="index.html">商城首页</a></li>
+				<li class="person"><a href="#">个人中心</a></li>
+				<li class="chart"><a href="#">购物车</a></li>
+				<li class="save"> <a href="#">收藏夹</a></li>
+			</ul>
+		</div>
+		<div class="logo">
+			<h1></h1>
+			<div class="sou">
+				<input type="text" placeholder="搜索" />
+				<p>搜索</p>
+			</div>
+		</div>
+		<div class="clear"></div>
+	
+		<table>
+			<tr height="60px">
+				<td colspan="3" style="padding-left:30px">商品信息</td>
+				<td align="center">单价</td>
+				<td align="center">数量</td>
+				<td align="center">金额</td>
+				<td align="center">操作</td>
+			</tr>
+			<tr>
+				<td colspan="7" class="tr2-td">已享优惠:省￥200.00</td>
+			</tr>
+			<tr>
+				<td class="tr3-td1"><input type="checkbox" class="ck">
+					<div class="pic">
+						<img src="../images/shopcartImg.jpg" alt="" height="85">
+					</div>
+				</td>
+				<td class="tr3-td2" valign="top"><a href="/shoplnfo.html">华为荣耀 畅玩4X 白色移动4G手机 双卡双待</a></td>
+				<td class="tr3-td3" valign="top">
+					<a href="#">颜色:白色包装:裸装</a>
+					<div>
+						<span>修改</span>
+					</div </td>
+				<td class="tr3-td4" valign="top" align="center">
+					<del>2499.00</del><br>
+					<strong>2399.00</strong>
+				</td>
+				<td class="tr3-td5" valign="top">
+					<input type="text" class="btn-decrement" value="-">
+					<input type="text" class="input-qty" value="1">
+					<input type="text" class="btn-increment" value="+">
+				</td>
+				<td valign="top" align="center" style="padding-top:15px">2399.00</td>
+				<td valign="top" align="center" style="padding-top:15px">
+					<a href="#">移入收藏夹</a><br>
+					<a href="#" class="sc">删除</a>
+				</td>
+			</tr>
+				<td class="tr3-td1"><input type="checkbox" class="ck">
+					<div class="pic">
+						<img src="../images/shopcartImg-01.jpg" alt="" height="85">
+					</div>
+				</td>
+				<td class="tr3-td2" valign="top"><a href="/shoplnfo.html">华为荣耀 畅玩4X 白色移动4G手机 双卡双待</a></td>
+				<td class="tr3-td3" valign="top">
+					<a href="#">颜色:白色包装:裸装</a>
+					<div>
+						<span>修改</span>
+					</div </td>
+				<td class="tr3-td4" valign="top" align="center">
+					<del>2499.00</del><br>
+					<strong>2399.00</strong>
+				</td>
+				<td class="tr3-td5" valign="top">
+					<input type="text" class="btn-decrement" value="-">
+					<input type="text" class="input-qty" value="1">
+					<input type="text" class="btn-increment" value="+">
+				</td>
+				<td valign="top" align="center" style="padding-top:15px">2399.00</td>
+				<td valign="top" align="center" style="padding-top:15px">
+					<a href="#">移入收藏夹</a><br>
+					<a href="#" class="sc">删除</a>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="7" class="tr2-td">已享优惠:省￥100.00</td>
+			</tr>
+			<tr>
+				<td class="tr3-td1"><input type="checkbox" class="ck">
+					<div class="pic">
+						<img src="../images/phone4.jpg" alt="" height="85">
+					</div>
+				</td>
+				<td class="tr3-td2" valign="top"><a href="/shoplnfo.html">华为mate60畅玩4X白色移动5G手机双卡双待
+						</a>
+				</td>
+				<td class="tr3-td3" valign="top">
+					<a href="#">颜色:白色包装:裸装</a>
+					<div>
+						<span>修改</span>
+					</div </td>
+				<td class="tr3-td4" valign="top" align="center">
+					<del>2499.00</del><br>
+					<strong>2399.00</strong>
+				</td>
+				<td class="tr3-td5" valign="top">
+					<input type="text" class="btn-decrement" value="-">
+					<input type="text" class="input-qty" value="1">
+					<input type="text" class="btn-increment" value="+">
+				</td>
+				<td valign="top" align="center" style="padding-top:15px">2399.00</td>
+				<td valign="top" align="center" style="padding-top:15px">
+					<a href="#">移入收藏夹</a><br>
+					<a href="#" class="sc">删除</a>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="7" class="tr7-td">
+					<p class="tr7-td-p1">
+						<input type="checkbox" id="ck_all">&nbsp;&nbsp;全选
+						<a href="#">&nbsp;&nbsp;&nbsp;&nbsp;删除</a>
+						<a href="#">移入收藏夹</a>
+					</p>
+					<p class="tr7-td-p2">已选商品&nbsp;&nbsp; 0&nbsp;&nbsp;件&nbsp;&nbsp;合计:<em>￥0.00</em><a href="#" class="js"></a>
+					</p>
+					<button class="js">结算</button>
+				</td>
+			</tr>
+		</table>
+		<div class="foot">
+			<p>信息科技|商城首页|支付宝|物流</p>
+			<p class="foot_p ">关于信息合作伙伴联系我们网站地图c 2016-2025mingrisoft.com 版权所有</p>
+		</div>
+	</body>
+</html>
+<script src="../js/Shopping cart.js">
+</script>
